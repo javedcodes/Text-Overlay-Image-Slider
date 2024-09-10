@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- JV Source Codes | www.jvcodes.com -->
+<html lang="en">
+
+<head>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Page Title -->
+  <title>Website Image Slider</title>
+  
+  <!-- Swiper's CSS for slider styling -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  
+  <!-- Custom CSS for additional styling -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Main Section for the Image Slider -->
+  <section class="main swiper mySwiper">
+    <!-- Slider Wrapper to contain all slides -->
+    <div class="wrapper swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="slide swiper-slide">
+        <img src="images/pet5.jpg" alt="Horse" class="image" />
+        <div class="image-data">
+          <span class="text">Experience the beauty of horses.</span>
+          <h2>Majestic Horses <br />In Their Natural Habitat</h2>
+          <a href="#" class="button">Learn More</a>
+        </div>
+      </div>
+      
+      <!-- Slide 2 -->
+      <div class="slide swiper-slide">
+        <img src="images/pet8.jpg" alt="Dog and Cat" class="image" />
+        <div class="image-data">
+          <span class="text">Meet our beloved pets.</span>
+          <h2>Dogs and Cats <br />Playing Together</h2>
+          <a href="#" class="button">Meet Them</a>
+        </div>
+      </div>
+      
+      <!-- Slide 3 -->
+      <div class="slide swiper-slide">
+        <img src="images/pet3.jpg" alt="Parrot" class="image" />
+        <div class="image-data">
+          <span class="text">Colorful and vibrant personalities.</span>
+          <h2>Exotic Parrots <br />In Full Splendor</h2>
+          <a href="#" class="button">Discover More</a>
+        </div>
+      </div>
+      
+      <!-- Slide 4 -->
+      <div class="slide swiper-slide">
+        <img src="images/pet4.jpg" alt="Eagle" class="image" />
+        <div class="image-data">
+          <span class="text">The power of nature in flight.</span>
+          <h2>Majestic Eagles <br />Soaring High</h2>
+          <a href="#" class="button">Explore Eagles</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Buttons for Swiper -->
+    <div class="swiper-button-next nav-btn"></div>
+    <div class="swiper-button-prev nav-btn"></div>
+    
+    <!-- Pagination for Swiper -->
+    <div class="swiper-pagination"></div>
+  </section>
+
+  <!-- Swiper JS Library -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+  <!-- Custom JavaScript for initializing Swiper -->
+  <script src="script.js" defer></script>
+</body>
+
+</html>
