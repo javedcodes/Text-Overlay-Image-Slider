@@ -33,7 +33,7 @@ To use this slider in your project, visit:
 
 ## Video Preview
 
-[![Watch the video](https://img.youtube.com/vi/lCcsWzjrOfw/0.jpg)](https://www.youtube.com/watch?v=lCcsWzjrOfw)
+[![Watch the video](https://img.youtube.com/vi/ssbeV18gr2A/0.jpg)](https://www.youtube.com/watch?v=ssbeV18gr2A)
 
 ## Contributing
 
